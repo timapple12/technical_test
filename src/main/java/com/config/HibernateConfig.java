@@ -27,7 +27,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableTransactionManagement
 @ComponentScan(basePackages = "com")
 @PropertySource("classpath:hibernate.properties")
-@EnableWebMvc
+
 public class HibernateConfig implements WebMvcConfigurer {
     @Autowired
     private Environment environment;
@@ -67,18 +67,17 @@ public class HibernateConfig implements WebMvcConfigurer {
         return transactionManager;
     }
 
-    @Bean
-    public InternalResourceViewResolver resolver() {
-        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setViewClass(JstlView.class);
-        resolver.setPrefix("/WEB-INF/views/");
-        resolver.setSuffix(".jsp");
-        return resolver;
-    }
-
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+    }
+    @Bean
+    public InternalResourceViewResolver resolver(){
+        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+        resolver.setViewClass(JstlView.class);
+        resolver.setPrefix("/WEB-INF/view/");
+        resolver.setSuffix(".jsp");
+        return resolver;
     }
 
 }

@@ -1,0 +1,11 @@
+
+y
+java:S1128"WRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistryBuilder'.(ƒ©¡üøÿÿÿÿ8Ô» ³Ê.
+C
+java:S1168"&Return an empty array instead of null.(¥¹ï8Ì½”˜Ê.
+a
+java:S1128"?Remove this unused import 'org.hibernate.boot.MetadataSources'.(çÂÙáÿÿÿÿÿ8Ô» ³Ê.
+Z
+java:S1128"8Remove this unused import 'org.hibernate.boot.Metadata'.(ò•Šÿûÿÿÿÿ8Ô» ³Ê.
+m
+java:S1128"PRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistry'.(Û‹ÜŒ8Ô» ³Ê.

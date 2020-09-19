@@ -1,10 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
+<h3>Welcome to Booking Service!</h3>
 
-<body>
-<h1>hy</h1>
-</body>
-</html>
+<c:url value="/logout" var="logoutUrl" />
+<form id="logout" action="${logoutUrl}" method="post" >
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+</form>
+<c:if test="${pageContext.request.userPrincipal.name != null}">
+    <a href="javascript:document.getElementById('logout').submit()">Logout</a>
+</c:if>

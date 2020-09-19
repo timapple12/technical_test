@@ -2,6 +2,7 @@ package com.domain;
 
 import com.domain.role.Role;
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,6 +10,7 @@ import java.io.Serializable;
 @Entity
 @Table(name = "user")
 @Data
+@ToString
 public class User implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -48,4 +50,5 @@ public class User implements Serializable {
     public void setRole(String role) {
         this.role = role;
     }
+
 }

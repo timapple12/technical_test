@@ -1,6 +1,7 @@
 /home/andrew/IdeaProjects/soft/src/main/java/com/MainInit.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/domain/User.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/domain/role/Role.java
+/home/andrew/IdeaProjects/soft/src/main/java/com/config/SecurityConfig.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/dao/UserDao.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/controller/MainController.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/dao/UserDaoImplementation.java

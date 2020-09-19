@@ -1,7 +1,0 @@
-com/config/HibernateConfig.class
-com/service/UserServiceImplementation.class
-com/dao/UserDao.class
-com/dao/UserDaoImplementation.class
-com/service/UserService.class
-com/domain/User.class
-com/domain/role/Role.class

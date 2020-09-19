@@ -1,0 +1,10 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(Õü·÷ıÿÿÿÿ8¸È£³Ê.
+]	java:S125"<This block of commented-out lines of code should be removed.(•½ñßıÿÿÿÿ8£÷£³Ê.
+˜
+java:S1128	"vRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'.(Æ­¹¬øÿÿÿÿ8£ãÛ²Ê.
+
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.(åÅÚ…ûÿÿÿÿ8š¬è²Ê.
+—
+java:S1128"zRemove this unused import 'org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity'.(ë‚ØÓ8¡’¹°Ê.
+X	java:S125*"<This block of commented-out lines of code should be removed.(”±Ö 8âÊ§³Ê.
