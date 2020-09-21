@@ -1,5 +1,7 @@
 <html>
 <form name='login' action="<c:url value='/login' />" method='POST'>
+    <c:if test="${not empty error}"><div>${error}</div></c:if>
+    <c:if test="${not empty message}"><div>${message}</div></c:if>
     <table>
         <tr>
             <td>UserName:</td>

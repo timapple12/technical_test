@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @ComponentScan(basePackages = {"com"})
-public class MvcConfig {
+public class MvcConfig extends WebMvcConfigurerAdapter{
 
     @Bean
     public InternalResourceViewResolver resolver(){
@@ -25,11 +25,11 @@ public class MvcConfig {
         return resolver;
     }
 
-   /* @Override
+    @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/main").setViewName("main");
         registry.addViewController("/").setViewName("main");
         registry.addViewController("/hello").setViewName("hello");
         registry.addViewController("/login").setViewName("login");
-    }*/
+    }
 }

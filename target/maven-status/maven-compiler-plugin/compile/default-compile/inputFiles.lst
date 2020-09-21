@@ -3,9 +3,11 @@
 /home/andrew/IdeaProjects/soft/src/main/java/com/domain/role/Role.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/config/SecurityConfig.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/dao/UserDao.java
-/home/andrew/IdeaProjects/soft/src/main/java/com/controller/MainController.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/dao/UserDaoImplementation.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/service/UserService.java
+/home/andrew/IdeaProjects/soft/src/main/java/com/controller/MainController.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/config/MvcConfig.java
+/home/andrew/IdeaProjects/soft/src/main/java/com/config/SecurityWeb.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/service/UserServiceImplementation.java
 /home/andrew/IdeaProjects/soft/src/main/java/com/config/HibernateConfig.java
+/home/andrew/IdeaProjects/soft/src/main/java/com/controller/SecurityController.java
